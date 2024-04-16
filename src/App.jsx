@@ -1,15 +1,15 @@
 import  NavBar  from './components/NavBar';
 import './App.css'
+import Header from './components/Header';
 
 function App() {
 
   return (
     <>
-    <NavBar/>
-      <div>
-
-        test number one
-       </div>
+   <Header/>
+    <div className='container'>
+ this is a container
+    </div>
                         
     </>
   )
